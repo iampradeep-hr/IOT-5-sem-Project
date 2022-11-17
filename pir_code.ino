@@ -2,12 +2,12 @@
 #include<Adafruit_MQTT_Client.h>
 #include<ESP8266WiFi.h>
 
-#define wifi_name "Tor-999"
-#define pwd "Tom@#$jerry"
+#define wifi_name "YOUR WIFI NAME"
+#define pwd "YOUR WIFI PASSWORD"
 #define server "io.adafruit.com"
 #define port 1883
-#define username "pradeep03"
-#define aiokey "aio_jYlZ59gDK4MPjNZhQBCh9iUesDdo"
+#define username "ADAFRUIT USERNAME"
+#define aiokey "ADAFRUIT KEY"
 
 
 #define ledPin D0
