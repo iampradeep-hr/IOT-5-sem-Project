@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                     while (true) {
                         if (isActive){
                             getData()
-                            delay(100)
+                            delay(300)
                         }
                     }
                 }
@@ -80,7 +80,6 @@ class MainActivity : AppCompatActivity() {
                     response: Response<DataModelItem>
                 ) {
                     if (response.isSuccessful) {
-                        Log.d("TAG", "onResponse: ${response.body()}")
                         binding.tv.text=response.body()?.last_value
                         binding.log.text=response.body()?.updated_at
                         if (response.body()?.last_value=="1"){

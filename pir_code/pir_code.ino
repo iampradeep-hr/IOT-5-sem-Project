@@ -2,12 +2,12 @@
 #include<Adafruit_MQTT_Client.h>
 #include<ESP8266WiFi.h>
 
-#define wifi_name "Tor-999"
-#define pwd "Tom@#$jerry"
+#define wifi_name "wifi name"
+#define pwd "wifi password"
 #define server "io.adafruit.com"
 #define port 1883
-#define username "pradeep03"
-#define aiokey "aio_jYlZ59gDK4MPjNZhQBCh9iUesDdo"
+#define username "adafruit username"
+#define aiokey "adafruit password"
 
 
 #define ledPin D0
@@ -60,10 +60,7 @@ void loop(){
     Serial.println("Trying");
     }
   }
-  if(data==1){
-    delay(4000);
-  }
 
 
-delay(2000);
+delay(3000);
 }
